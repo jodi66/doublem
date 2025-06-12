@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./style.css" rel="stylesheet">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <!-- <link href="./style.css" rel="stylesheet"> -->
   <title>Home</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style>
     *{
       padding: 0;
@@ -15,7 +16,7 @@
       height: 35rem;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url("../assets/Hero Background.jpg");
+      background-image: url("./assets/Hero Background.jpg");
     }
 /* @keyframes halfCircleFallLeft {
   0% {
@@ -56,17 +57,17 @@
   padding: 0;
 }
 #image1{
-  background-image: url('../assets/Photo.png');
+  background-image: url('./assets/Photo.png');
   background-position: center;
   background-size: cover;
 }
 #image2{
-  background-image: url('../assets/Photo (1).png');
+  background-image: url('./assets/Photo (1).png');
   background-position: center;
   background-size: cover;
 }
 #image3{
-  background-image: url('../assets/Photo (2).png');
+  background-image: url('./assets/Photo (2).png');
   background-position: center;
   background-size: cover;
 }
@@ -101,16 +102,16 @@
       <h2 class="text-4xl font-bold !m-8">Our Services</h2>
       <div class="services-images flex flex-wrap justify-around">
         <div id="hoverContainer" class="flex flex-col text-start align-middle rounded-3xl">
-          <div id="image1" class="cursor-pointer w-[22rem] h-[16rem] rounded-3xl text-white"></div>
-          <a href="#" id="hoverLink" class="font-bold !ml-5 text-[18px] text-[#61316F]">Photography</a>
+          <div id="image1" class="cursor-pointer w-[22rem] h-[16rem] rounded-3xl text-white !m-3"></div>
+          <a href="#"  class="font-bold !ml-5 text-[18px] text-[#61316F]">Photography</a>
         </div>
         <div class="flex flex-col text-start align-middle">
-          <div id="image2" class="single-serv-image  w-[22rem] h-[16rem] rounded-3xl text-white hover: !m-3"></div>
-            <a href="" class="font-bold !ml-5 text-[18px] text-[#61316F] hover:underline">Social Media</a>
+          <div id="image2" class="single-serv-image  w-[22rem] h-[16rem] rounded-3xl text-white !m-3"></div>
+            <a href="" class="font-bold !ml-5 text-[18px] text-[#61316F]">Social Media</a>
         </div>
         <div class="flex flex-col text-start align-middle">
-          <div id="image3" class="single-serv-image  w-[22rem] h-[16rem] rounded-3xl text-white hover: !m-3"></div>
-            <a href="" class="font-bold !ml-5 text-[18px] text-[#61316F] hover:underline">Design</a>
+          <div id="image3" class="single-serv-image  w-[22rem] h-[16rem] rounded-3xl text-white !m-3"></div>
+            <a href="" class="font-bold !ml-5 text-[18px] text-[#61316F]">Design</a>
         </div>
       </div>
     </div>
